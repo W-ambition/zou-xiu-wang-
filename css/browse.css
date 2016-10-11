@@ -1,0 +1,54 @@
+.container{
+  height: 734px;
+  background-color: #fff;
+  flex-flow: column wrap;
+}
+.container .container-list{
+  width: 646px;
+  box-sizing: border-box;
+  padding: 0 40px;
+  border-bottom: 1px solid #aaaaaa;
+  border-top: 1px solid #cbcbcb;
+  height: 232px;
+  align-items:center;
+}
+.container .container-list dl{
+  display: flex;
+  justify-content: flex-start;
+}
+.container .container-list dl .intro{
+  padding-left: 27px;
+  box-sizing: border-box;
+}
+.container .container-list dl .intro dd{
+  font-size: 30px;
+  color: #000;
+}
+.container .container-list dl .intro dd:last-child{
+  font-size: 24px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  align-items: flex-start;
+}
+.container .container-list img{
+  border: 1px solid #bababa;
+}
+.pink{
+  color: #e4386a;
+}
+del{
+  color: #bbb;
+}
+.shop{
+  width: 118px;
+  height: 52px;
+  border-radius: 8px 8px;
+  background: url("../images/shop.jpg") no-repeat center center;
+  background-color: #dc1e5a;
+  margin-top: -10px;
+}
+footer .foot-list:nth-of-type(4){
+  border-top: 5px solid #e4366b;
+}

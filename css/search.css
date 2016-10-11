@@ -1,0 +1,40 @@
+
+section.item{
+  height: 646px;
+  background-color: #fff;
+  flex-flow: column wrap;
+  overflow: hidden;
+}
+section.item article{
+  width: 646px;
+  box-sizing: border-box;
+  padding: 0 40px;
+  border-bottom: 1px solid #aaaaaa;
+  border-top: 1px solid #cbcbcb;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  flex-shrink: 0;
+}
+section.item .txt{
+  width: auto;
+  font-size: 40px;
+  color: #000;
+}
+section.item article:first-child i{
+  display: block;
+  width: 29px;
+  height: 23px;
+  background: url("../images/jiantou2.jpg") no-repeat;
+}
+section.item i{
+  display: block;
+  width: 23px;
+  height: 30px;
+  background: url("../images/jiantou3.jpg") no-repeat;
+}
+footer .foot-list:nth-of-type(2){
+  border-top: 5px solid #e4366b;
+}
